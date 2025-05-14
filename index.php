@@ -389,7 +389,7 @@
   <footer>
     <div class="container">
       <div class="contact-info">
-        <p><i class="fas fa-envelope"></i> oualid.mokrane@email.com</p>
+        <p><i class="fas fa-envelope"></i> walidar911@gmail.com</p>
         <p><i class="fas fa-map-marker-alt"></i> Maroc</p>
       </div>
       

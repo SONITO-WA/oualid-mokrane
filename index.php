@@ -394,9 +394,9 @@
       </div>
       
       <div class="social-links">
-        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/oualid-mokrane-1a80142bb/" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/SONITO-WA" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/oualid_mk4/?next=%2F" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
       </div>
       
       <div class="copyright">

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: oualid-profile
+    env: docker
+    plan: free
+    repo: https://github.com/SONITO-WA/oualid-mokrane
+    region: frankfurt
+    buildCommand: ""
+    startCommand: ""

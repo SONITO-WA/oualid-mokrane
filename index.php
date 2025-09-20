@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Profil de Oualid Mokrane</title>
+  <title>Profil de Oualid MOKRANE</title>
+  <link rel="icon" type="image/png" href="images/image1.jpeg">
+  <meta name="description" content="Site officiel de Oualid Mokrane - Élève ingénieur en Management et Gouvernance des Systèmes d’Information, passionné par les réseaux, la cybersécurité, Linux, Java, C, MySQL et les technologies innovantes. Découvrez mon parcours, mes projets et mes compétences.">
+  <meta name="keywords" content="Oualid Mokrane, Ingénieur Systèmes d’Information, Réseaux, Cybersécurité, Linux, MySQL, Java, C, Projets, ENSIASD, IA, Data Science, Profil, Maroc">
+  <meta name="author" content="Oualid Mokrane">
+  <meta name="robots" content="index, follow">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     :root {
@@ -301,7 +306,7 @@
           <img src="images/image2.jpg" alt="Oualid Mokrane" class="profile-image">
         </div>
         <h1>Oualid Mokrane</h1>
-        <p>Étudiant en Réseaux et Télécommunications | Passionné de Cybersécurité et Technologies Connectées</p>
+        <p>Élève Ingénieur en Management et Gouvernance des Systèmes d’Information | Passionné de Réseaux & Cybersécurité</p>
       </div>
     </div>
   </header>
@@ -314,7 +319,7 @@
       </div>
       <div class="card-body">
         <p>
-          Je m'appelle <strong>Oualid Mokrane</strong>, étudiant à l'École Supérieure de Technologie Filière Réseaux et Télécommunications (ESTF). Passionné par les systèmes informatiques, les réseaux sans fil, la cybersécurité, et les nouvelles technologies, je développe actuellement des projets liés aux capteurs connectés, aux systèmes de surveillance, et à la sécurité réseau.
+          Je m'appelle <strong>Oualid Mokrane</strong>, étudiant à l'École Nationale Supérieure de l’Intelligence Artificielle et Science des Données. Passionné par les réseaux, les systèmes d’information et les nouvelles technologies. Mon objectif est de contribuer à des projets innovants en intelligence artificielle, big data et cybersécurité, tout en développant mes compétences en <strong> management et gouvernance des SI.</strong>
         </p>
       </div>
     </div>
@@ -340,16 +345,22 @@
           </div>
           <div class="skill-item">
             <i class="fas fa-mobile-alt"></i>
-            <span>Développement d'applications mobiles avec MIT App Inventor</span>
+            <span>Développement d'applications mobiles </span>
           </div>
           <div class="skill-item">
             <i class="fas fa-database"></i>
-            <span>Utilisation de Firebase pour le stockage de données en temps réel</span>
+            <span>Utilisation de base de données comme MySQL, Firebase, postgreSQL, freesqldatabase</span>
           </div>
           <div class="skill-item">
             <i class="fas fa-shield-alt"></i>
             <span>Tests de sécurité réseau avec pfSense, Kali Linux, Snort</span>
           </div>
+          <div class="skill-item">
+            <i class="fas fa-code"></i> 
+            <span>Langage de programmation comme java, C, PHP, javascript, C++, python </span>
+          </div>
+          
+
         </div>
       </div>
     </div>

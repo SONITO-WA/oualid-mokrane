@@ -13,6 +13,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="menu-button" id="menuBtn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="menu-panel" id="menuPanel">
+        <a href="#about"><i class="fas fa-user"></i> À propos</a>
+        <a href="#competences"><i class="fas fa-laptop-code"></i> Compétences</a>
+        <a href="#projets"><i class="fas fa-project-diagram"></i> Projets</a>
+        <a href="#parcours"><i class="fas fa-graduation-cap"></i> Parcours</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+      </div>
+    </div>
+  </nav>
   <header>
     <div class="container">
       <div class="header-content">
@@ -23,24 +37,31 @@
           <img src="images/image2.jpg" alt="Oualid Mokrane" class="profile-image">
         </div>
         <h1>Oualid Mokrane</h1>
-        <p>Élève Ingénieur en Management et Gouvernance des Systèmes d’Information | Passionné de Réseaux & Cybersécurité</p>
+        <p>Élève Ingénieur en Management et Gouvernance des Systèmes d’Information | Passionné de Réseaux &
+          Cybersécurité</p>
       </div>
     </div>
   </header>
-  
+    <button id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
   <main class="container">
-    <div class="card reveal delay-1">
+    <div class="card reveal delay-1" id="about">
       <div class="card-header">
         <i class="fas fa-user-circle"></i>
         <h2>À propos de moi</h2>
       </div>
       <div class="card-body">
         <p>
-          Je m'appelle <strong>Oualid Mokrane</strong>, étudiant à l'École Nationale Supérieure de l’Intelligence Artificielle et Science des Données. Passionné par les réseaux, les systèmes d’information et les nouvelles technologies. Mon objectif est de contribuer à des projets innovants en intelligence artificielle, big data et cybersécurité, tout en développant mes compétences en <strong> management et gouvernance des SI.</strong>
+          Je m'appelle <strong>Oualid Mokrane</strong>, étudiant à l'École Nationale Supérieure de l’Intelligence
+          Artificielle et Science des Données. Passionné par les réseaux, les systèmes d’information et les nouvelles
+          technologies. Mon objectif est de contribuer à des projets innovants en intelligence artificielle, big data et
+          cybersécurité, tout en développant mes compétences en <strong> management et gouvernance des SI.</strong>
         </p>
       </div>
     </div>
-    
+
     <section class="card reveal delay-2" id="competences">
       <div class="card-header">
         <i class="fas fa-laptop-code"></i>
@@ -51,11 +72,13 @@
 
         <h3>Réseaux & Infrastructure</h3>
         <div class="skills-grid">
-          <div class="skill-item"><i class="fas fa-network-wired"></i><span>Conception et installation de réseaux</span></div>
+          <div class="skill-item"><i class="fas fa-network-wired"></i><span>Conception et installation de réseaux</span>
+          </div>
           <div class="skill-item"><i class="fas fa-server"></i><span>Configuration de routeurs et switchs</span></div>
           <div class="skill-item"><i class="fas fa-video"></i><span>Installation de caméras IP</span></div>
           <div class="skill-item"><i class="fas fa-desktop"></i><span>Virtualisation avec VMware</span></div>
-          <div class="skill-item"><i class="fas fa-wifi"></i><span>Configuration d’infrastructures réseau sécurisées</span></div>
+          <div class="skill-item"><i class="fas fa-wifi"></i><span>Configuration d’infrastructures réseau
+              sécurisées</span></div>
 
         </div>
 
@@ -80,13 +103,14 @@
           <div class="skill-item"><i class="fas fa-database"></i><span>MySQL, PostgreSQL, mongoDB</span></div>
           <div class="skill-item"><i class="fas fa-microchip"></i><span>Arduino, ESP32, XBee, Raspberry Pi</span></div>
           <div class="skill-item"><i class="fas fa-cogs"></i><span>Systèmes connectés et IoT</span></div>
-          <div class="skill-item"><i class="fas fa-sitemap"></i><span>Gouvernance des systèmes d’information</span></div>
+          <div class="skill-item"><i class="fas fa-sitemap"></i><span>Gouvernance des systèmes d’information</span>
+          </div>
         </div>
 
       </div>
     </section>
-    
-    <div class="card reveal delay-3">
+
+    <div class="card reveal delay-3" id="projets">
       <div class="card-header">
         <i class="fas fa-project-diagram"></i>
         <h2>Mes projets</h2>
@@ -96,105 +120,233 @@
           <div class="project-item">
             <img src="https://images.unsplash.com/photo-1597852074816-d933c7d2b988" class="project-image">
             <h3>Infrastructure réseau d'entreprise</h3>
-            <p>Conception et déploiement d’un réseau d’entreprise incluant configuration de routeurs, switchs et segmentation VLAN pour améliorer la performance et la sécurité.</p>
+            <p>Conception et déploiement d’un réseau d’entreprise incluant configuration de routeurs, switchs et
+              segmentation VLAN pour améliorer la performance et la sécurité.</p>
           </div>
 
           <div class="project-item">
             <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" class="project-image">
             <h3>Laboratoire de cybersécurité</h3>
-            <p>Mise en place d’un laboratoire virtuel pour tester des attaques et analyser des vulnérabilités avec Kali Linux, pfSense et Snort.</p>
+            <p>Mise en place d’un laboratoire virtuel pour tester des attaques et analyser des vulnérabilités avec Kali
+              Linux, pfSense et Snort.</p>
           </div>
 
           <div class="project-item">
             <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" class="project-image">
             <h3>Système IoT de surveillance environnementale</h3>
-            <p>Développement d’un système IoT utilisant Arduino et ESP32 pour collecter et transmettre des données environnementales vers une base de données cloud.</p>
+            <p>Développement d’un système IoT utilisant Arduino et ESP32 pour collecter et transmettre des données
+              environnementales vers une base de données cloud.</p>
           </div>
 
           <div class="project-item">
-            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"class="project-image">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" class="project-image">
             <h3>Portfolio web personnel</h3>
-            <p>Création d’un site portfolio moderne en HTML, CSS et JavaScript avec animations, design responsive et optimisation SEO.</p>
+            <p>Création d’un site portfolio moderne en HTML, CSS et JavaScript avec animations, design responsive et
+              optimisation SEO.</p>
           </div>
 
           <div class="project-item">
             <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31" class="project-image">
             <h3>Système de gestion de base de données</h3>
-            <p>Conception et implémentation d’une base de données relationnelle avec MySQL pour la gestion d’utilisateurs et de données applicatives.</p>
+            <p>Conception et implémentation d’une base de données relationnelle avec MySQL pour la gestion
+              d’utilisateurs et de données applicatives.</p>
           </div>
 
           <div class="project-item">
             <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051" class="project-image">
             <h3>Déploiement d'application avec Docker</h3>
-            <p>Containerisation et déploiement d’une application web avec Docker pour simplifier la gestion des environnements et améliorer la portabilité.</p>
+            <p>Containerisation et déploiement d’une application web avec Docker pour simplifier la gestion des
+              environnements et améliorer la portabilité.</p>
           </div>
         </div>
       </div>
     </div>
+    <section class="card reveal delay-2" id="parcours">
+      <div class="card-header">
+        <i class="fas fa-graduation-cap"></i>
+        <h2>Mon parcours scolaire</h2>
+      </div>
+      <div class="card-body">
+        <div class="education-timeline">
+
+          <div class="education-item" data-index="0">
+            <div class="edu-connector">
+              <div class="edu-dot"></div>
+              <div class="edu-line"></div>
+            </div>
+            <div class="education-logo">
+              <img src="images/lycee.png" alt="Logo Lycée Homan El Fetwaki">
+              <div class="logo-glow"></div>
+            </div>
+            <div class="education-content">
+              <span class="education-date"><i class="fas fa-calendar-alt"></i> 2023</span>
+              <h3>Baccalauréat</h3>
+              <h4>Lycée Homan El Fetwaki</h4>
+              <p>Obtention du baccalauréat en 2023, avec une première base solide en sciences,
+                en logique et en discipline académique, marquant le début de mon parcours
+                dans le domaine technologique.</p>
+              <div class="edu-tags">
+                <span>Sciences</span>
+                <span>Logique</span>
+                <span>Académique</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-item" data-index="1">
+            <div class="edu-connector">
+              <div class="edu-dot"></div>
+              <div class="edu-line"></div>
+            </div>
+            <div class="education-logo">
+              <img src="images/EST.png" alt="Logo EST">
+              <div class="logo-glow"></div>
+            </div>
+            <div class="education-content">
+              <span class="education-date"><i class="fas fa-calendar-alt"></i> 2023 — 2025</span>
+              <h3>Études supérieures en technologie</h3>
+              <h4>École Supérieure de Technologie</h4>
+              <p>DUT en Réseaux et Télécommunications à l'École Supérieure de Technologie, durant lesquelles j’ai acquis
+                des bases solides en infrastructures réseau, systèmes informatiques et technologies de communication,
+                tout en développant mes capacités d’analyse et de résolution de problèmes techniques.</p>
+              <div class="edu-tags">
+                <span>Informatique</span>
+                <span>Réseaux</span>
+                <span>Analyse</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-item active-education" data-index="2">
+            <div class="edu-connector">
+              <div class="edu-dot active-dot"></div>
+            </div>
+            <div class="education-logo active-logo">
+              <img src="images/ensiasd.webp" alt="Logo ENSIASD">
+              <div class="logo-glow"></div>
+            </div>
+            <div class="education-content">
+              <span class="education-date"><i class="fas fa-calendar-alt"></i> 2025 — 2028</span>
+              <div class="active-badge"><i class="fas fa-circle"></i> En cours</div>
+              <h3>Cycle d'ingénieur</h3>
+              <h4>École Nationale Supérieure de l'IA et des Sciences des Données</h4>
+              <p>Actuellement en formation d'ingénieur à l'ENSIASD, où je développe mes
+                compétences en intelligence artificielle, science des données, systèmes d'information,
+                réseaux, cybersécurité et technologies innovantes.</p>
+              <div class="edu-tags">
+                <span>IA</span>
+                <span>Data Science</span>
+                <span>Systèmes d'information</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
   <section class="contact" id="contact">
-        <div class="container">
-            <div class="contact-wrapper contact-stack">
-                <div class="contact-left">
-                    <span class="section-tag">CONTACT</span>
+    <div class="container">
+      <div class="contact-wrapper contact-stack">
+        <div class="contact-left">
+          <span class="section-tag">CONTACT</span>
 
-                    <h2 class="contact-title">
-                        <span class="filled">CONTACTER</span>
-                        <span class="outline">MOI</span>
-                    </h2>
+          <h2 class="contact-title">
+            <span class="filled">CONTACTER</span>
+            <span class="outline">MOI</span>
+          </h2>
 
-                    <form class="contact-form" id="contactForm" action="https://formsubmit.co/walidar911@gmail.com"
-                        method="POST">
-                        <!-- options FormSubmit -->
-                        <input type="hidden" name="_subject" value="Nouveau message depuis ton site">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_template" value="table">
+          <form class="contact-form" id="contactForm" action="https://formsubmit.co/walidar911@gmail.com" method="POST">
+            <!-- options FormSubmit -->
+            <input type="hidden" name="_subject" value="Nouveau message depuis ton site">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
 
-                        <div class="form-row">
-                            <div class="form-group">
-                                <input type="text" name="name" placeholder="Nom" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Email" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="text" name="subject" placeholder="Sujet">
-                        </div>
-
-                        <div class="form-group">
-                            <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
-                        </div>
-
-                        <button type="submit" class="submit-btn" data-magnetic>
-                            <span>Envoyer</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </button>
-                    </form>
-
-                </div>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Nom" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Email" required>
+              </div>
             </div>
+
+            <div class="form-group">
+              <input type="text" name="subject" placeholder="Sujet">
+            </div>
+
+            <div class="form-group">
+              <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn" data-magnetic>
+              <span>Envoyer</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+
         </div>
-    </section>
-  
+      </div>
+    </div>
+  </section>
+
   <footer>
     <div class="container">
       <div class="contact-info">
-        <a class="footer-email" href="https://mail.google.com/mail/?view=cm&fs=1&to=walidar911@gmail.com" target="_blank"> <i class="fas fa-envelope"></i> walidar911@gmail.com </a>
+        <a class="footer-email" href="https://mail.google.com/mail/?view=cm&fs=1&to=walidar911@gmail.com"
+          target="_blank"> <i class="fas fa-envelope"></i> walidar911@gmail.com </a>
         <p><i class="fas fa-map-marker-alt"></i> Maroc</p>
       </div>
-      
+
       <div class="social-links">
-        <a href="https://www.linkedin.com/in/oualid-mokrane-1a80142bb/" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.linkedin.com/in/oualid-mokrane-1a80142bb/" class="social-link" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
         <a href="https://github.com/SONITO-WA" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/oualid_mk4/?next=%2F" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/oualid_mk4/?next=%2F" class="social-link" target="_blank"><i
+            class="fab fa-instagram"></i></a>
       </div>
-      
+
       <div class="copyright">
         <p>&copy; 2025 - Oualid Mokrane. Tous droits réservés.</p>
       </div>
     </div>
   </footer>
 </body>
+<script>
+  const backToTop = document.getElementById("backToTop");
+
+  /* afficher le bouton quand on scroll */
+
+  window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 400) {
+      backToTop.classList.add("show");
+    } else {
+      backToTop.classList.remove("show");
+    }
+
+  });
+
+  /* scroll vers le hero */
+
+  backToTop.addEventListener("click", () => {
+
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+
+  });
+</script>
+<script>
+
+  const menuBtn = document.getElementById("menuBtn");
+  const menuPanel = document.getElementById("menuPanel");
+
+  menuBtn.addEventListener("click", () => {
+    menuPanel.classList.toggle("active");
+  });
+
+</script>
+
 </html>
